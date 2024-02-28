@@ -1,7 +1,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
 
 .hireme-button{
@@ -15,4 +15,14 @@
     letter-spacing: 1px;
     cursor: pointer;
 
+}
+
+.logo{
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    background-color: #c3abe2;
 }
