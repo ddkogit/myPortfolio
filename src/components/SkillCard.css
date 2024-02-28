@@ -6,6 +6,7 @@
     text-align: center;
     padding: 50px;
     border-radius: 20px;
+
 }
 
 .tech-title{
@@ -14,6 +15,8 @@
     font-size: 1.5rem;
     margin-bottom: 25px;
     margin-top: 25px;
+   
+    
 }
 
 .tech-description{
@@ -22,15 +25,22 @@
 
 ul{
     list-style:  none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+  
 }
 
 li{
     font-weight: bold;
     color: white;
     background-color: #4b484e;
-    margin: 15px auto;
+
     padding: 10px;
     border-radius: 20px;
     width: 250px;
-    text-align: center;
+    
 }

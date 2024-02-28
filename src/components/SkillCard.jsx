@@ -10,7 +10,7 @@ function SkillCard() {
         on the web"
       </p>
 
-      <div className="tech-title">Technologies:</div>
+      <div className="tech-title">Technologies</div>
 
       <ul>
         <li>
