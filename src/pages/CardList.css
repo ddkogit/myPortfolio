@@ -1,0 +1,19 @@
+.card-list-container {
+  max-width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 50px;
+  justify-items: center;
+  /* max-width: 800px; */
+  margin: 50px auto;
+
+
+  
+}

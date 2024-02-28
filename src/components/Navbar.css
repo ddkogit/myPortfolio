@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: bold;
 }
 
 .hireme-button{
@@ -27,6 +28,7 @@
     border: none;
     border-radius: 100px;
     background-color: #c3abe2;
+    cursor: pointer;
 }
 
 .hireme-button:hover{
@@ -34,4 +36,7 @@
     color: white;
 
     transform: scale(1.1);
+}
+.nav-projects{
+    cursor: pointer;
 }

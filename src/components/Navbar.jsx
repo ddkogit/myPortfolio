@@ -9,7 +9,7 @@ function Navbar() {
         </div>
 
         <div>
-          <span>Projects</span>
+          <span className="nav-projects">Projects</span>
 
           <button className="hireme-button">Hier me</button>
         </div>
