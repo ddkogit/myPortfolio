@@ -1,6 +1,11 @@
 import React from "react";
 import "./Navbar.css";
-function Navbar() {
+import { Link } from "react-scroll";
+
+function Navbar({ scrollToProject }) {
+  const handleClick = () => {
+    // scrollToProject();
+  };
   return (
     <div>
       <nav className="navbar">
@@ -9,9 +14,11 @@ function Navbar() {
         </div>
 
         <div>
-          <span className="nav-projects">Projects</span>
-
+        
+            
+            <Link  className="nav-projects" to="scroll-id" smooth duration={500}>Projects</Link>
           <button className="hireme-button">Hier me</button>
+          
         </div>
       </nav>
     </div>

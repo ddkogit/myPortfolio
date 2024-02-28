@@ -3,7 +3,6 @@ import "./ProjectCard.css"
 import {LazyLoadImage} from "react-lazy-load-image-component"
 
 function ProjectCard({title,imgUrl}) {
-    console.log(title)
 
     return (
     <div>

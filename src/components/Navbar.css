@@ -40,3 +40,7 @@
 .nav-projects{
     cursor: pointer;
 }
+
+.nav-projects:hover{
+    text-decoration: underline;
+}
