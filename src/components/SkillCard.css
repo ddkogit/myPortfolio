@@ -1,14 +1,19 @@
 .skill-container{
-    max-width: 80vw;
-    margin: 0 auto;
+   
+    max-width: 800px;
+    margin: 50px auto;
     background-color: white;
     text-align: center;
+    padding: 50px;
+    border-radius: 20px;
 }
 
 .tech-title{
-    color: #6E07F3;
+    color: #141C3A;
     font-weight: bold;
     font-size: 1.5rem;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .tech-description{
@@ -17,4 +22,15 @@
 
 ul{
     list-style:  none;
+}
+
+li{
+    font-weight: bold;
+    color: white;
+    background-color: #4b484e;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
 }
