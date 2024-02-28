@@ -1,5 +1,4 @@
 body{
-    background-color: white;
     color: #141C3A;
 }
 
@@ -9,7 +8,17 @@ body{
 
 .home-container{
     max-width: 80vw;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.nav{
+
     margin: 20px auto;
+}
+.home-wrap{
+    
+    background-color: white;
 }
 
 
@@ -17,6 +26,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 15px;
     
     
 

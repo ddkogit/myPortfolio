@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import "./Home.css";
 function Home() {
   return (
+    <div className="home-wrap">
+
     <div className="home-container">
       <Navbar />
 
@@ -19,6 +21,7 @@ function Home() {
       <img className="avatar-img" src="/avatarbg.png" alt="avatar image" />
       <img className="landscape-img" src="/landbg.png" alt="avatar image" />
       </div>
+    </div>
     </div>
   );
 }
