@@ -1,0 +1,17 @@
+.git-button, .contact-btn{
+display: flex;
+align-items: center;
+padding: 5px 50px 5px 10px ;
+gap: 10px;
+color: white;
+border-radius: 20px;
+border: 1px solid white;
+cursor: pointer;
+background-color: transparent;
+}
+
+.btn-text{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+

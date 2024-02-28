@@ -5,6 +5,7 @@ import SkillCard from "./components/SkillCard";
 import CardList from "./pages/CardList";
 
 import { Link,animateScroll  } from "react-scroll";
+import Ending from "./pages/Ending";
 
 const projectList = [
   {
@@ -51,6 +52,8 @@ function App() {
       <div id="scroll-id">
       <CardList projects={projects}/>
     </div>
+
+    <Ending />
      
     </>
   );
