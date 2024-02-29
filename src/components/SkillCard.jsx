@@ -29,13 +29,13 @@ function SkillCard() {
             Mongo DB
         </li>
         <li>
-            Git
+            GitHub
         </li>
         <li>
-            HTML5
+            HTML 5
         </li>
         <li>
-            CSS
+            CSS 3
         </li>
       </ul>
     </div>

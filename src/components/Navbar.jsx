@@ -17,7 +17,7 @@ function Navbar({ scrollToProject }) {
         
             
             <Link  className="nav-projects" to="scroll-id" smooth duration={500}>Projects</Link>
-          <button className="hireme-button">Hier me</button>
+          <button className="hireme-button">Hire me</button>
           
         </div>
       </nav>

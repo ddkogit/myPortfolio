@@ -7,7 +7,7 @@ function Ending() {
       <button className="git-button">
        <img src="./icons-github.svg" width={30} alt="G" />
        <span className="btn-text">
-        Visit Github
+        Visit GitHub
         </span> 
       </button>
 

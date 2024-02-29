@@ -1,7 +1,7 @@
 .card-image{
     width: 300px;
     height: 250px;
-    background-color: red;
+   
     border-radius: 10px;
     object-fit: cover;
     transition: transform 0.3s ease;

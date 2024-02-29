@@ -17,7 +17,7 @@ function Home({scrollToProject}) {
       <div className="h2">Frontend Developer</div>
       <p className="home-content">
         I develop websites using HTML, CSS and Javascript, specializing in
-        creating dunamic interfaces with React.js.
+        creating dynamic interfaces with React.js.
       </p>
 
       <img className="avatar-img" src="/avatarbg.png" alt="avatar image" />

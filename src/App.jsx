@@ -46,6 +46,7 @@ function App() {
   
   return (
     <>
+<div className="app-container">
 
       <Home  />
       <SkillCard />
@@ -54,6 +55,7 @@ function App() {
     </div>
 
     <Ending />
+</div>
      
     </>
   );
