@@ -3,9 +3,9 @@ import "./Ending.css"
 
 function Ending() {
   return (
-    <div>
+    <div className="ending-container">
       <button className="git-button">
-       <img src="./gitlogo.png" width={30} alt="G" />
+       <img src="./icons-github.svg" width={30} alt="G" />
        <span className="btn-text">
         Visit Github
         </span> 
@@ -17,44 +17,44 @@ function Ending() {
     Start A Project
 </span>
 
-<span>
+<span className="text-t">
     "Intrested in teaming up? Let's plan a time to have a conversation. Feel free to get in touch with me."
 </span>
 
 <button className="contact-btn" >
-    <img src="./contactme.png" width={30} alt="C" />
+    <img src="./icon-contact.png" width={30} alt="C" />
   <span className="btn-text">
       Contact Me
     </span>
 </button>
 </div>
+
 <button className="logo">D</button>
-<span>
+
+<div>
     Learning everyday
-</span>
-<span>
+</div>
+<div>
     Developing everyday
-</span>
-<ul>
+</div>
+<div className="button-list">
+
     <button>
-        <img src="./gitlogo.png" width={40} alt="" />
+        <img src="./icons-github.svg" width={40} alt="" />
     </button>
     <button>
-        <img src="./gitlogo.png" width={40} alt="" />
+        <img src="./icon-mail.png" width={40} alt="" />
     </button>
     <button>
-        <img src="./gitlogo.png" width={40} alt="" />
+        <img src="./icon-linkedin.svg" width={40} alt="" />
     </button>
+    
     <button>
-        <img src="./gitlogo.png" width={40} alt="" />
+        <img src="./icon-contact.png" width={40} alt="" />
     </button>
-    <button>
-        <img src="./gitlogo.png" width={40} alt="" />
-    </button>
-    <button>
-        <img src="./gitlogo.png" width={40} alt="" />
-    </button>
-</ul>
+  
+</div>
+
 
 <span>dipeshdulal56@gmail.com</span>
 <span>+977 9805324144</span>
