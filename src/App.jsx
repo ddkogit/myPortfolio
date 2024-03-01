@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import SkillCard from "./components/SkillCard";
 import CardList from "./pages/CardList";
+import Contactme from "./pages/Contactme/Contactme";
 
 import { Link,animateScroll  } from "react-scroll";
 import Ending from "./pages/Ending";
@@ -41,13 +42,23 @@ const projectList = [
 ];
 
 function App() {
+  const[showContact,setShowcontact] = useState(true);
   const [projects, setProjects] = useState(projectList);
 
+  const handleClose=()=>{
+    setShowcontact(false)
+  }
   
+  if(showContact){
+    return(
+<Contactme handleClose={handleClose}/>
+
+    )
+  }
   return (
     <>
 <div className="app-container">
-
+  
       <Home  />
       <SkillCard />
       <div id="scroll-id">

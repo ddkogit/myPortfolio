@@ -68,10 +68,12 @@ border: none;
 
     .contact-text{
         flex-direction: column;
+        justify-content: center;
     }
 
     .text-t{
         width: 70vw;
+        
     }
     
 }

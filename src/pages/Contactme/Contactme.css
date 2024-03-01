@@ -1,0 +1,58 @@
+.contactme-container{
+    background-color: white;
+    height: 100vh;
+}
+
+.contactme-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.acc{
+    display: flex;
+    gap: 20px;
+}
+
+.acc > img{
+    cursor: pointer;
+}
+
+.contactme-avatar{
+   margin: 0 auto;
+}
+
+.form-wrap{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.contactme-input{
+    margin-right: 50px;
+    margin-bottom: 30px;
+    padding: 10px;
+   
+}
+.contactme-textarea{
+    display: block;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.contactme-submit{
+    background: transparent;
+    padding: 10px 50px;
+    border: 1px solid #6E07F3;
+    
+    border-radius: 20px;
+    
+
+}
+.contactme-text{
+    font-size: 1.5rem;
+    width: 500px;
+}
