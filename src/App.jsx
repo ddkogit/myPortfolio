@@ -49,12 +49,12 @@ function App() {
     setShowcontact(false)
   }
   
-  if(showContact){
-    return(
-<Contactme handleClose={handleClose}/>
+//   if(showContact){
+//     return(
+// <Contactme handleClose={handleClose}/>
 
-    )
-  }
+//     )
+//   }
   return (
     <>
 <div className="app-container">
