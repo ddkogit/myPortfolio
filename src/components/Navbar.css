@@ -10,8 +10,8 @@
     padding:10px 20px;
     border-radius: 100px;
     background-color: white;
-    border: 2px solid #6E07F3;
-    color: #6E07F3;
+    border: 2px solid #1252A3;
+    color: #1252A3;
     font-weight: bold;
     letter-spacing: 1px;
     cursor: pointer;
@@ -32,10 +32,11 @@
 }
 
 .hireme-button:hover{
-    background-color: #6E07F3;
+    background-color: #1252A3;
     color: white;
+    
 
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
 }
 .nav-projects{
     cursor: pointer;

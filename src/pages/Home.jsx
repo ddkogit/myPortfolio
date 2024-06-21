@@ -1,13 +1,16 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import "./Home.css";
+
 function Home({scrollToProject}) {
 
   console.log(scrollToProject);
   return (
     <div className="home-wrap">
+      
 
     <div className="home-container">
+      
       <Navbar scrollToProject={scrollToProject} />
 
       <div className="home-main">
