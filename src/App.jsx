@@ -1,11 +1,9 @@
 import { useState } from "react";
 import "./App.css";
 import Home from "./pages/Home";
-import SkillCard from "./components/SkillCard";
 import CardList from "./pages/CardList";
 import Contactme from "./pages/Contactme/Contactme";
-
-import { Link,animateScroll  } from "react-scroll";
+import Skills from "./components/Skills";
 import Ending from "./pages/Ending";
 
 const projectList = [
@@ -42,32 +40,26 @@ const projectList = [
 ];
 
 function App() {
-  const[showContact,setShowcontact] = useState(true);
+  const [showContact, setShowcontact] = useState(true);
   const [projects, setProjects] = useState(projectList);
 
-  const handleClose=()=>{
-    setShowcontact(false)
-  }
-  
-//   if(showContact){
-//     return(
-// <Contactme handleClose={handleClose}/>
+  const handleClose = () => {
+    setShowcontact(false);
+  };
 
-//     )
-//   }
   return (
     <>
-<div className="app-container">
-  
-      <Home  />
-      <SkillCard />
-      <div id="scroll-id">
-      <CardList projects={projects}/>
-    </div>
+      <div className="app-container">
+        <Home />
+        <Skills />
 
-    <Ending />
-</div>
-     
+  
+        <div id="scroll-id">
+          <CardList projects={projects} />
+        </div>
+
+        <Ending />
+      </div>
     </>
   );
 }

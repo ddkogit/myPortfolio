@@ -57,6 +57,9 @@ border: none;
     align-items: center;
     justify-content: center;
     margin: 20px 0;
+    background: #C3ABE2;
+    padding: 20px 100px ;
+    border-radius: 10px;
     
 }
 
@@ -78,3 +81,10 @@ border: none;
     
 }
 
+.contact-btn{
+    padding: 10px;
+}
+
+.btn-text{
+    padding: 2px 5px;
+}

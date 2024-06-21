@@ -22,8 +22,7 @@ function Ending() {
 </span>
 
 <button className="contact-btn" >
-    <img src="./icon-contact.png" width={30} alt="C" />
-  <span className="btn-text">
+  <span className="btn-text" >
       Contact Me
     </span>
 </button>
