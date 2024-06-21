@@ -10,7 +10,7 @@ function CardList({ projects }) {
       <p>I've been involved in several projects. Here are some examples.</p>
       <div className="card-container">
         {projects.map((project) => (
-          <ProjectCard key={project.title} imgUrl={project.imgUrl} title={project.title}/>
+          <ProjectCard key={project.title} imgUrl={project.imgUrl} title={project.title} webLink={project.webLink}/>
         ))}
       </div>
     </div>
