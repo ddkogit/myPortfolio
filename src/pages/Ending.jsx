@@ -2,14 +2,22 @@ import React from "react";
 import "./Ending.css"
 
 function Ending() {
+    const handleContact =()=>{
+        window.location.href = 'mailto:dipeshdulal56@gmail.com?subject=Hello Dipesh &body=Hello, I would like to contact you.';
+    
+      }
+
   return (
     <div className="ending-container">
+        <a href="https://github.com/ddkogit" target="_blank">
+
       <button className="git-button">
-       <img src="./icons-github.svg" width={30} alt="G" />
+       <img src="./icons-github.svg" width={30} alt="visit github" />
        <span className="btn-text">
         Visit GitHub
         </span> 
       </button>
+        </a>
 
 
 <div className="contact-text">
@@ -21,7 +29,8 @@ function Ending() {
     "Intrested in teaming up? Let's plan a time to have a conversation. Feel free to get in touch with me."
 </span>
 
-<button className="contact-btn" >
+<button className="contact-btn" 
+onClick={handleContact}>
   <span className="btn-text" >
       Contact Me
     </span>
