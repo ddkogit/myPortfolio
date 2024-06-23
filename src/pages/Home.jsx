@@ -19,11 +19,10 @@ function Home({scrollToProject}) {
       <div className="h1 name">Dipesh Dulal</div>
       <div className="h2">Frontend Developer</div>
       <p className="home-content">
-        I develop websites using HTML, CSS and Javascript, specializing in
-        creating dynamic interfaces with React.js.
+      Specializing in HTML, CSS, and JavaScript, with expertise in React.js, I deliver dynamic interfaces and intuitive, engaging user experiences through proficient UI/UX design.
       </p>
 
-      <img className="avatar-img" src="/avatarbg.png" alt="avatar image" />
+      {/* <img className="avatar-img" src="/newavatar.png" alt="avatar image" /> */}
       <img className="landscape-img" src="/landbg.png" alt="avatar image" />
       </div>
     </div>

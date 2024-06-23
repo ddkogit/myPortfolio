@@ -34,7 +34,7 @@ body{
 }
 
 .home-content{
-    max-width: 500px;
+    max-width: 550px;
     text-align: center;
     letter-spacing: 1px;
     line-height: 1.7rem;
@@ -52,8 +52,9 @@ img{
 }
 .landscape-img{
    
-    width: 500px;
+    width: 700px;
+    height: auto;
     margin-bottom: 0;
-    margin-top: -100px;
+    margin-top: -75px;
   
 }

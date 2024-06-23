@@ -3,7 +3,13 @@ import "./Skills.css";
 
 const Skills = () => {
   return (
-    <div>
+    <div>      
+
+      <div className="h2 skillhead">My Skills</div>
+      <div className="skilltag">
+
+      Expert in React, Next.js, Node.js, CSS, Git, and UI/UX design, crafting seamless and efficient web solutions.
+      </div>
       <div className="banner">
         <div className="slider" style={{ "--quantity": 8 }}>
           <img

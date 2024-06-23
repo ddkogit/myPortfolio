@@ -6,7 +6,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    perspective: 1500px; /* Apply perspective to the parent */
+    perspective: 1500px; 
+    margin-top: -50px;
+    margin-bottom: -50px;
   }
   
   .banner .slider {
@@ -39,3 +41,17 @@
   }
  
   
+  .skillhead{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .skilltag{
+    max-width: 500px;
+    margin:10px auto;
+    letter-spacing: 1px;
+    line-height: 1.7rem;
+   
+    color: white;
+  }
