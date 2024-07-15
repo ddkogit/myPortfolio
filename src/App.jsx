@@ -18,6 +18,11 @@ const projectList = [
     webLink: "https://saiyansclub.vercel.app/",
   },
   {
+    title: "MC Quiz",
+    imgUrl:"mcq.png",
+    webLink: "https://afblockchaingame.com",
+  },
+  {
     title: "Pic Polish",
     imgUrl:
       "picpolish.png",
@@ -28,16 +33,11 @@ const projectList = [
     imgUrl: "sketch.png",
     webLink: "https://ddkogit.github.io/etch-a-sketch/",
   },
+ 
   {
-    title: "Comming Soon",
+    title: "RSVP HK",
     imgUrl:
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8d2Vic2l0ZXx8fHx8fDE3MDkxMzE0MDk&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080",
-    webLink: "#",
-  },
-  {
-    title: "Comming Soon",
-    imgUrl:
-      "https://images.unsplash.com/photo-1492724441997-5dc865305da7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8d2Vic2l0ZXx8fHx8fDE3MDkxMzE0MDY&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080",
+      "rsvphk.png",
     webLink: "#",
   },
 ];
